@@ -1,0 +1,49 @@
+* {
+    /* Border y Padding incluídos en los width y height */
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #ffffff;
+}
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body {
+    min-height: 9em;
+}
+
+.card-footer {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.card-footer button {
+    display: inline-block;
+    width: 30%;
+}
+
+.joke {
+    font-size: 1.5em;
+}
+
+#initial-placeholder {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#errorMsg {
+    display: none;
+}
